@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Генератор шаблонов - Основное окно</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Генератор шаблонов кода</h1>
+    <input type="text" id="projectName" placeholder="Имя проекта">
+    <select id="language">
+      <option value="html">HTML</option>
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+    </select>
+    <button onclick="generateTemplate()">Сгенерировать</button>
+    <pre id="templateOutput"></pre>
+  </div>
+  <script src="/eel.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
